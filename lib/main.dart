@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:radio_app/pages/homePage.dart';
 
 void main() {
   runApp(MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(),
       debugShowCheckedModeBanner: false,
-      home: Container()
+      home: Homepage()
     );
   }
 }
